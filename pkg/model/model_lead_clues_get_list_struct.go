@@ -18,7 +18,7 @@ type LeadCluesGetListStruct struct {
 	WechatAppid              *string             `json:"wechat_appid,omitempty"`
 	AgencyId                 *string             `json:"agency_id,omitempty"`
 	AgencyName               *string             `json:"agency_name,omitempty"`
-	CampaignId               *int64              `json:"campaign_id,omitempty"`
+	CampaignId               *string             `json:"campaign_id,omitempty"`
 	CampaignName             *string             `json:"campaign_name,omitempty"`
 	AdgroupId                *string             `json:"adgroup_id,omitempty"`
 	AdgroupName              *string             `json:"adgroup_name,omitempty"`
